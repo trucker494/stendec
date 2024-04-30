@@ -41,13 +41,13 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Output the result in an element with id="demo"
-  document.getElementById("demo").innerHTML = days + "&nbsp;Dias " + hours + "&nbsp;Horas "
-  + minutes + "&nbsp;Minutos " + seconds + "&nbsp;Segundos ";
+  document.getElementById("demo").innerHTML = days + "&nbsp;Days " + hours + "&nbsp;Hours "
+  + minutes + "&nbsp;Minutes " + seconds + "&nbsp;Seconds ";
 
   // If the count down is over, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "WINDOWS 10 IS NOT LONGER SUPPORTED";
+    document.getElementById("demo").innerHTML = "PICOS IS HERE!";
   }
 }, 1000);
 </script>
